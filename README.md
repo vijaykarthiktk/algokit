@@ -8,6 +8,7 @@ A versatile Dart algorithms library providing efficient implementations of vario
   - Bubble Sort
   - Quick Sort
   - Merge Sort
+  - Selection Sort
 - Searching Algorithms
   - Binary Search
   - Linear Search

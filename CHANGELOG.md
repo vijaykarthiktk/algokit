@@ -1,10 +1,8 @@
-# Changelog
+## 1.0.1
 
-All notable changes to this project will be documented in this file.
+- Selection Sort implementation with O(n²) time complexity
 
 ## 1.0.0
-
-### Added
 
 Sorting Algorithms:
 
