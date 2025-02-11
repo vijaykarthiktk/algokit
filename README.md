@@ -9,10 +9,14 @@ A versatile Dart algorithms library providing efficient implementations of vario
   - Quick Sort
   - Merge Sort
   - Selection Sort
+  - Insertion Sort
+  - Heap Sort
+  - Shell Sort
 - Searching Algorithms
   - Binary Search
   - Linear Search
   - Jump Search
+  - Interpolation Search
 
 ## Getting started
 
