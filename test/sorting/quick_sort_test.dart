@@ -1,4 +1,4 @@
-import 'package:algorithms/algorithms.dart';
+import 'package:algokit/algokit.dart';
 import 'package:test/test.dart';
 
 void main() {

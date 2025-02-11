@@ -1,4 +1,4 @@
-import 'package:algorithms/algorithms.dart';
+import 'package:algokit/algokit.dart';
 
 void main() {
   print('Linear Search Examples\n');

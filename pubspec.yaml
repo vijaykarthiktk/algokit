@@ -1,8 +1,8 @@
-name: algorithms
+name: algokit
 description: A versatile Dart algorithms library providing implementations of various algorithms..
 version: 1.0.0
-homepage: https://github.com/vijaykarthiktk/algorithms
-repository: https://github.com/vijaykarthiktk/algorithms
+homepage: https://github.com/vijaykarthiktk/algokit
+repository: https://github.com/vijaykarthiktk/algokit
 
 environment:
   sdk: ^3.5.1
