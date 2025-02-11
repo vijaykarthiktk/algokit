@@ -36,7 +36,7 @@ For detailed examples of how to use each algorithm, please check the `/example` 
 
 ### Bug Reports and Feature Requests
 
-If you find a bug or have a feature request, please open an issue on the [GitHub repository](https://github.com/vijaykarthik/algorithms/issues).
+If you find a bug or have a feature request, please open an issue on the [GitHub repository](https://github.com/vijaykarthiktk/algorithms/issues).
 
 ### License
 
