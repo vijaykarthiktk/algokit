@@ -1,3 +1,14 @@
+## 1.0.2
+
+Sorting:
+
+- Insertion Sort implementation with O(n²) time complexity
+- Heap Sort implementation with O(n log n) time complexity
+
+Searching:
+
+- Interpolation Search implementation with O(log log n) time complexity for uniformly distributed data
+
 ## 1.0.1
 
 - Selection Sort implementation with O(n²) time complexity
