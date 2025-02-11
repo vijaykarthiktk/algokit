@@ -1,0 +1,99 @@
+name: New Algorithm Request
+description: Suggest a new algorithm to be added to the library
+title: "[ALGORITHM]: "
+labels: ["new-algorithm"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a new algorithm for the library!
+  - type: input
+    id: algorithm_name
+    attributes:
+      label: Algorithm Name
+      description: What is the name of the algorithm you'd like to see added?
+      placeholder: e.g., Heap Sort
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Algorithm Category
+      description: What category does this algorithm belong to?
+      options:
+        - Sorting
+        - Searching
+        - Graph
+        - Dynamic Programming
+        - String
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Algorithm Description
+      description: Please describe how the algorithm works
+      placeholder: The algorithm works by...
+    validations:
+      required: true
+  - type: textarea
+    id: time_complexity
+    attributes:
+      label: Time Complexity
+      description: What is the time complexity of this algorithm? Please provide details and explanation if needed.
+      placeholder: e.g., O(n log n) for average case, O(n²) for worst case
+    validations:
+      required: false
+  - type: textarea
+    id: space_complexity
+    attributes:
+      label: Space Complexity
+      description: What is the space complexity of this algorithm? Please provide details and explanation if needed.
+      placeholder: e.g., O(n) auxiliary space
+    validations:
+      required: false
+  - type: textarea
+    id: use_cases
+    attributes:
+      label: Use Cases
+      description: What are the practical applications of this algorithm?
+      placeholder: This algorithm is useful for...
+  - type: textarea
+    id: code_example
+    attributes:
+      label: Example Implementation
+      description: If possible, provide a sample implementation or pseudocode
+      render: dart
+      placeholder: |
+        // Sample implementation or pseudocode
+        void algorithmName(List<T> input) {
+          // Implementation details
+        }
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Information
+      description: Any other relevant information about the algorithm
+      placeholder: Additional details, references, or resources...
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: Contribution Interest
+      description: Let us know if you'd like to help implement this algorithm. If you check this box, you will be automatically assigned to this issue.
+      options:
+        - label: I would like to contribute by implementing this algorithm
+          required: false
+    validations:
+      required: false
+  - type: checkboxes
+    id: verification
+    attributes:
+      label: Verification
+      description: Please verify the following before submitting
+      options:
+        - label: I have searched the existing algorithms in the library and confirmed this algorithm is not already implemented
+          required: true
+        - label: I have checked existing issues to ensure this algorithm hasn't been requested before
+          required: true
