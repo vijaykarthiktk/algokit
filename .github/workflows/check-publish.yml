@@ -1,0 +1,22 @@
+name: Check Publish Readiness
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  check-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Dart
+        uses: dart-lang/setup-dart@v1
+        with:
+          sdk: stable
+
+      - name: Check if package is ready for publishing
+        run: dart pub publish --dry-run
