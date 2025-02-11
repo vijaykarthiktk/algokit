@@ -1,3 +1,9 @@
+## 1.0.3
+
+Sorting:
+
+- Shell Sort implementation with O(n log n) best case, O(n²) worst case time complexity
+
 ## 1.0.2
 
 Sorting:
