@@ -1,0 +1,85 @@
+name: Bug Report For Algorithms
+description: Create a report to help us improve
+title: "[BUG]: "
+labels: ["bug"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the Bug
+      description: A clear and concise description of what the bug is
+      placeholder: When I try to use...
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: How can we reproduce this issue?
+      placeholder: |
+        1. Use algorithm '...'
+        2. With input '...'
+        3. Expected output '...'
+        4. Actual output '...'
+    validations:
+      required: true
+  - type: textarea
+    id: code
+    attributes:
+      label: Code Example
+      description: Please provide a code example that demonstrates the issue
+      render: dart
+      placeholder: |
+        // Your code example here
+        final list = [3, 1, 4, 1, 5, 9];
+        final result = bubbleSort(list);
+  - type: input
+    id: dart_version
+    attributes:
+      label: Dart/Flutter Version
+      description: What version of Dart/Flutter are you using?
+      placeholder: e.g., Dart 3.0.0
+    validations:
+      required: true
+  - type: dropdown
+    id: operating_system
+    attributes:
+      label: Operating System
+      description: What operating system are you using?
+      options:
+        - Windows
+        - macOS
+        - Linux
+        - Android
+        - iOS
+        - Web
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Add any other context about the problem here
+      placeholder: Any other relevant information...
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: Contribution Interest
+      description: Let us know if you'd like to help implement this algorithm. If you check this box, you will be automatically assigned to this issue.
+      options:
+        - label: I would like to contribute by implementing this algorithm
+          required: false
+  - type: checkboxes
+    id: verification
+    attributes:
+      label: Verification
+      description: Please verify the following before submitting your bug report
+      options:
+        - label: I have searched the existing issues and confirmed this is not a duplicate
+          required: true
+        - label: I have tested this issue with the latest version of the package
+          required: true
