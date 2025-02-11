@@ -11,6 +11,7 @@ A versatile Dart algorithms library providing efficient implementations of vario
   - Selection Sort
   - Insertion Sort
   - Heap Sort
+  - Shell Sort
 - Searching Algorithms
   - Binary Search
   - Linear Search
