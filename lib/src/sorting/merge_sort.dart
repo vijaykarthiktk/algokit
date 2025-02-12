@@ -8,11 +8,11 @@ List<T> mergeSort<T extends Comparable<T>>(List<T> list) {
   final left = list.sublist(0, middle);
   final right = list.sublist(middle);
 
-  return merge(mergeSort(left), mergeSort(right));
+  return _merge(mergeSort(left), mergeSort(right));
 }
 
 /// Helper function for mergeSort
-List<T> merge<T extends Comparable<T>>(List<T> left, List<T> right) {
+List<T> _merge<T extends Comparable<T>>(List<T> left, List<T> right) {
   final result = <T>[];
   var leftIndex = 0;
   var rightIndex = 0;

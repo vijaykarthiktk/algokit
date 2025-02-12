@@ -2,7 +2,7 @@ import 'package:algokit/algokit.dart';
 import 'package:test/test.dart';
 
 void main() {
-  group('Jump Search', () {
+  group('Jump Search -', () {
     test('finds elements in sorted list', () {
       final sortedNumbers = [1, 3, 4, 6, 8, 9, 11, 13, 14, 15, 17, 18, 19, 20];
       expect(jumpSearch<num>(sortedNumbers, 13), 7);

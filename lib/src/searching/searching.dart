@@ -1,5 +1,5 @@
 /// Searching algorithms implementation
-library algorithms.searching;
+library algokit.searching;
 
 export 'binary_search.dart';
 export 'linear_search.dart';
