@@ -1,3 +1,11 @@
+## 1.0.4
+
+Data Structures:
+
+- Added Complex Number implementation with basic arithmetic operations (addition, subtraction, multiplication, division)
+- Support for complex number comparisons and conversions
+- Comprehensive test coverage for complex number operations
+
 ## 1.0.3
 
 Sorting:

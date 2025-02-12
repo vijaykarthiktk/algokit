@@ -17,6 +17,8 @@ A versatile Dart algorithms library providing efficient implementations of vario
   - Linear Search
   - Jump Search
   - Interpolation Search
+- Data Stucture
+  - Complex Number
 
 ## Getting started
 
