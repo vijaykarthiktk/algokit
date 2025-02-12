@@ -7,7 +7,7 @@ List<T> heapSort<T extends Comparable<T>>(List<T> list) {
 
   // Build heap (rearrange array)
   for (int i = n ~/ 2 - 1; i >= 0; i--) {
-    heapify(result, n, i);
+    _heapify(result, n, i);
   }
 
   // One by one extract an element from heap
@@ -18,7 +18,7 @@ List<T> heapSort<T extends Comparable<T>>(List<T> list) {
     result[i] = temp;
 
     // call max heapify on the reduced heap
-    heapify(result, i, 0);
+    _heapify(result, i, 0);
   }
 
   return result;
@@ -26,7 +26,7 @@ List<T> heapSort<T extends Comparable<T>>(List<T> list) {
 
 /// Helper function to heapify a subtree rooted with node i which is
 /// an index in list[]. n is size of heap
-void heapify<T extends Comparable<T>>(List<T> list, int n, int i) {
+void _heapify<T extends Comparable<T>>(List<T> list, int n, int i) {
   int largest = i; // Initialize largest as root
   int left = 2 * i + 1; // left = 2*i + 1
   int right = 2 * i + 2; // right = 2*i + 2
@@ -48,6 +48,6 @@ void heapify<T extends Comparable<T>>(List<T> list, int n, int i) {
     list[largest] = swap;
 
     // Recursively heapify the affected sub-tree
-    heapify(list, n, largest);
+    _heapify(list, n, largest);
   }
 }
