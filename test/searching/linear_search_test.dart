@@ -2,7 +2,7 @@ import 'package:algokit/algokit.dart';
 import 'package:test/test.dart';
 
 void main() {
-  group('Linear Search', () {
+  group('Linear Search -', () {
     test('finds elements in list', () {
       final numbers = [45, 23, 11, 89, 77, 98, 4, 28, 65, 43];
       expect(linearSearch<num>(numbers, 77), 4);

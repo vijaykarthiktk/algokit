@@ -1,5 +1,5 @@
 /// Sorting algorithms implementation
-library algorithms.sorting;
+library algokit.sorting;
 
 export 'bubble_sort.dart';
 export 'quick_sort.dart';

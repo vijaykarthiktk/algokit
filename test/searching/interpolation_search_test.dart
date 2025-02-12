@@ -2,7 +2,7 @@ import 'package:test/test.dart';
 import 'package:algokit/algokit.dart';
 
 void main() {
-  group('Interpolation Search', () {
+  group('Interpolation Search -', () {
     test('should find element in sorted list', () {
       final list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
       expect(interpolationSearch(list, 5), equals(4));
