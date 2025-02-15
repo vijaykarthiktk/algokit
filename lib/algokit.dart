@@ -3,7 +3,7 @@
 /// This library provides various algorithm implementations including:
 /// - Sorting algorithms (bubble sort, quick sort, merge sort)
 /// - Searching algorithms (binary search, linear search, jump search)
-/// - Data Structures 
+/// - Data Structures
 library algokit;
 
 export 'src/sorting/sorting.dart';
