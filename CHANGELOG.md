@@ -1,3 +1,10 @@
+## 1.1.0
+
+- Added Queue implementation with standard operations (enqueue, dequeue, peek)
+- Added Stack implementation with standard operations (push, pop, peek)
+- Added LinkedList implementation with basic operations (insert, delete, traverse)
+- Comprehensive test coverage for Queue, Stack, and LinkedList operations
+
 ## 1.0.4
 
 Data Structures:
