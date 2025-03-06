@@ -1,7 +1,7 @@
 name: algokit
 description: A versatile Dart algorithms library providing implementations of various algorithms..
 version: 1.0.4
-homepage: https://github.com/vijaykarthiktk/algokit
+homepage: https://algokit.vercel.app
 repository: https://github.com/vijaykarthiktk/algokit
 
 environment:
