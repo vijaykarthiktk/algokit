@@ -19,6 +19,9 @@ A versatile Dart algorithms library providing efficient implementations of vario
   - Interpolation Search
 - Data Stucture
   - Complex Number
+  - Queue
+  - Stack
+  - LinkedList
 
 ## Getting started
 
@@ -26,7 +29,7 @@ Add this package to your project's dependencies in `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  algokit: ^1.0.0
+  algokit: ^1.4.0
 ```
 
 Then run:
