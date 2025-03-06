@@ -4,6 +4,7 @@ version: 1.0.4
 homepage: https://algokit.vercel.app
 repository: https://github.com/vijaykarthiktk/algokit
 issue_tracker: https://github.com/vijaykarthiktk/algokit/issues
+documentation: https://algokit.vercel.app/docs/getting-started/introduction
 environment:
   sdk: ^3.5.1
 
